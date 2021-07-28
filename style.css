@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #FFF9F4;
+}
+.navbar-brand img{
+    width: 291.11px;
+    height: 39.27px;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+h5{
+    color: #363958;
+}
+
+.nike{
+    color: #FA804C;
+}
+
+.infinity{
+    color: #363958;
+}
+
+.btn{
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+}
+
+.card img{
+    background-color: #F1F1F1;
+    border-radius: 10px;
+}
+.price{
+    color: #FA804C;
+}
+
+.title{
+    color: #363958;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.feature{
+    border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 688px){
+    h1{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .title{
+        font-size: 36px;
+    }
+
+    .navbar-brand img{
+        width: 192.75px;
+        height: 26px;
+    }
+}
